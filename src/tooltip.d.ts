@@ -129,6 +129,11 @@ declare module 'react-native-walkthrough-tooltip' {
 
     /** Will use given component instead of default react-native Modal component **/
     modalComponent?: object;
+
+    /**
+     * The rendered contents of the tooltip when open
+     */
+    children?: React.Node;
   }
 
   /**
